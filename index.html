@@ -11,48 +11,43 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-            apiKey: "AIzaSyDVKKt6ughkLJ4n--YN0klkBPkqvyux4MI",
-            authDomain: "dosisletal69-draft.firebaseapp.com",
-            projectId: "dosisletal69-draft",
-            storageBucket: "dosisletal69-draft.firebasestorage.app",
-            messagingSenderId: "689234628467",
-            appId: "1:689234628467:web:e9c584a598e7156b983f06",
-            measurementId: "G-K69T3DWJP1"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-    </script>
 </head>
+
 <nav>
     <div class="nav-wrapper black">
-        <a href="#" class="brand-logo black center">.</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html"></a></li>
-            <li><a href="badges.html"></a></li>
-            <li><a href="collapsible.html"></a></li>
+        <a href="#" class="brand-logo black center"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down center">
+            <li><a href="sass.html">Ver Productos</a></li>
+            <li><a href="badges.html">Musica</a></li>
+            <li><a href="collapsible.html">Nosotros</a></li>
         </ul>
     </div>
 </nav>
+
+
 <body class="black">
+
 
     <!-- PARALLAX SECTION -->
     <div class="parallax-container">
         <div class="parallax"><img src="./assets/1.jpg"></div>
+        <iframe width="1440" height="619" src="https://www.youtube.com/embed/Gaz1LgLQJOI?list=RDGaz1LgLQJOI" title="Dosis Letal 69 Ft. Lineth Vázquez - Aesthetic Belikona" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="centered-text">
             <img src=".." alt="">
         </div>
+    </div>
+
+    <section class="section section-black">
+        <div class="container center">
+            <h3 class="green-text text-accent-3"
+                style="font-family: 'Impact', sans-serif; text-transform: uppercase; letter-spacing: 2px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+                aqui va algo</h3>
+        </div>
+    </section>
+
+    <!-- PARALLAX SECTION 2 -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="./assets/1.jpg"></div>
     </div>
 
     <section class="section section-black">
@@ -109,38 +104,23 @@
         </div>
     </section>
 
-    <!-- PARALLAX TRANSICIÓN -->
+   <!-- PARALLAX SECTION 3 -->
     <div class="parallax-container">
-        <div class="parallax"><img src="./assets/3.png">
+        <div class="parallax">
+            <div class="parallax"><img src="./assets/3.png"></div>
         </div>
     </div>
 
-    <!-- SECCIÓN 2 -->
     <section class="section section-black">
         <div class="container center">
-            <p>algo</p>
+            <!-- Embed Spotify -->
+            <div class="spotify-player" style="margin-top: 30px;">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/6PJEFMd8XSXgPmtfJWAUip?utm_source=generator" width="90%" height="352"
+                    frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
     </section>
-
-    <!-- PARALLAX TRANSICIÓN -->
-    <div class="parallax-container">
-        <div class="parallax"><img
-                src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?fit=crop&w=1350&q=80"></div>
-    </div>
-
-    <!-- SECCIÓN 3 -->
-<!-- SECCIÓN 3 -->
-<section class="section section-black">
-    <div class="container center">
-        <!-- Embed Spotify -->
-        <div class="spotify-player" style="margin-top: 30px;">
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/6PJEFMd8XSXgPmtfJWAUip?utm_source=generator" width="90%" height="352"
-                frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-</section>
-  
 
     <!-- FOOTER -->
     <footer class="page-footer black">
@@ -151,7 +131,6 @@
 
     <!-- Materialize JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
