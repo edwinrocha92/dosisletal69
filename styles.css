@@ -221,3 +221,72 @@ h1 {
 
 
 
+.polaroid-stack {
+    position: relative;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .polaroid-stack .polaroid {
+    position: absolute;
+    width: 400px; /* Más anchas */
+    padding: 20px 20px 35px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  
+  .polaroid-stack .polaroid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .polaroid-stack .caption {
+    text-align: center;
+    color: #111;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .polaroid-stack .price {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .polaroid-stack .btn {
+    display: block;
+    margin: auto;
+    background-color: #d32f2f;
+  }
+  
+  .polaroid-stack .polaroid:nth-child(1) {
+    transform: rotate(-8deg);
+    top: 20px;
+    left: 5%;
+    z-index: 1;
+  }
+  
+  .polaroid-stack .polaroid:nth-child(2) {
+    transform: rotate(10deg);
+    top: 90px;
+    left: 30%;
+    z-index: 2;
+  }
+  
+  .polaroid-stack .polaroid:nth-child(3) {
+    transform: rotate(-13deg);
+    top: 0px;
+    left: 63%;
+    z-index: 1;
+  }
+  
