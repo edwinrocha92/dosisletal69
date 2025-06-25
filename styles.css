@@ -20,6 +20,11 @@
     padding: 80px 20px;
 }
 
+.section-white {
+    background-color: white;
+    padding: 80px 20px;
+}
+
 /* style.css */
 body {
     font-family: 'Bebas Neue', sans-serif;
@@ -212,3 +217,7 @@ h1 {
     from { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f00; }
     to { text-shadow: 0 0 10px #fff, 0 0 15px #ff4d4d, 0 0 20px #ff4d4d; }
 }
+
+
+
+
