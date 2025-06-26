@@ -223,7 +223,7 @@ h1 {
 
 .polaroid-stack {
     position: relative;
-    height: 550px;
+    height: 45rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -232,7 +232,7 @@ h1 {
   
   .polaroid-stack .polaroid {
     position: absolute;
-    width: 400px; /* Más anchas */
+    width: 450px; /* Más anchas */
     padding: 20px 20px 35px 20px;
     background-color: white;
     border-radius: 10px;
