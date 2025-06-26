@@ -272,7 +272,7 @@ h1 {
   .polaroid-stack .polaroid:nth-child(1) {
     transform: rotate(-8deg);
     top: 20px;
-    left: 5%;
+    left: -1%;
     z-index: 1;
   }
   
